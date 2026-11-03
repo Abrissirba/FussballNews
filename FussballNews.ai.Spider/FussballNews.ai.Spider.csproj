@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="1.3.0" />
+    <PackageReference Include="ReverseMarkdown" Version="4.7.0" />
+    <ProjectReference Include="..\FussballNews.ai.Azure\FussballNews.ai.Azure.csproj" />
+    <ProjectReference Include="..\FussballNews.ai.Model\FussballNews.ai.Model.csproj" />
+    <PackageReference Include="Quartz.AspNetCore" Version="3.14.0" />
+    <ProjectReference Include="..\FussballNews.ai.OpenAi\FussballNews.ai.OpenAi.csproj" />
+    <ProjectReference Include="..\FussballNews.ai.ServiceDefaults\FussballNews.ai.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

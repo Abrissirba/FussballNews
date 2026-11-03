@@ -1,0 +1,48 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+artifacts/
+*.nupkg
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pfx
+*.pem
+*.key
+*.p12
+secrets.json
+local.settings.json
+*.publishsettings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db

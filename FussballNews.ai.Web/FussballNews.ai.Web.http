@@ -1,0 +1,9 @@
+@FussballNews.ai.Web_HostAddress = http://localhost:5025
+
+GET {{FussballNews.ai.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET https://www.kicker.de/elversberg-beschaeftigt-sich-mit-vfb-talent-malanga-ulrich-zum-ksc-1126260/artikel#omrss
+Accept: application/json
